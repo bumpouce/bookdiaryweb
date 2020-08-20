@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
 import logo from './bookdiary.png';
+import Home from './Home'
+import History from "./History"
+import Update from './Update'
+import Quotes from './Quotes'
+import Favorites from './Favorites'
+import Suggestions from './Suggestions'
+import About from './About'
 
 class Navigation extends Component {
     render (){
@@ -8,13 +15,13 @@ class Navigation extends Component {
             <span class="App-header">
                 <img src={logo} alt="logo" class="logo"/> <br></br>
                 <ul class="nav">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">History</a></li>
-                    <li><a href="">Update</a></li>
-                    <li><a href="">Quotes</a></li>
-                    <li><a href="">Favorites</a></li>
-                    <li><a href="">Suggestions</a></li>
-                    <li><a href="">About</a></li>
+                    <li><Link to="/Home">Home</Link></li>
+                    <li><Link to="/History">History</Link></li>
+                    <li><Link to="/Update">Update</Link></li>
+                    <li><Link to="/Quotes">Quotes</Link></li>
+                    <li><Link to="/Favorites">Favorites</Link></li>
+                    <li><Link to="/Suggestions">Suggestions</Link></li>
+                    <li><Link to="/About">About</Link></li>
                 </ul>
             </span>
         )
