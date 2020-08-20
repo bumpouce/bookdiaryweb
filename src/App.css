@@ -2,6 +2,8 @@
   /* text-align: center;
   height: 100%; */
   display: flex;
+  background-color: #282c34;
+  color: #f2f2f2;
 }
 
 
@@ -32,7 +34,7 @@
 .nav a {
   color: #f2f2f2;
   text-align: initial;
-  padding: 20px;
+  /* padding: 20px; */
   text-decoration: none;
   font-size: 24px;
   font-size: calc(10px + 2vmin);
@@ -53,4 +55,16 @@
   width: 100%;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+.splash {
+  height: 60%;
+}
+
+.section-heading {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.section-paragraph {
+  padding-left: 100px;
 }

@@ -1,13 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
 import logo from './bookdiary.png';
-import Home from './Home'
-import History from "./History"
-import Update from './Update'
-import Quotes from './Quotes'
-import Favorites from './Favorites'
-import Suggestions from './Suggestions'
-import About from './About'
 
 class Navigation extends Component {
     render (){

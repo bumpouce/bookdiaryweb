@@ -1,7 +1,6 @@
 import React, {PureComponent} from 'react';
 import {BrowserRouter as Router, Route, Redirect} from "react-router-dom"
-import './App.css';
-import Body from './Body.js'
+
 import Navigation from './NavBar';
 import Home from './Home'
 import History from "./History"
@@ -10,6 +9,8 @@ import Quotes from './Quotes'
 import Favorites from './Favorites'
 import Suggestions from './Suggestions'
 import About from './About'
+
+import './App.css';
 
 
 class App extends PureComponent {
@@ -30,9 +31,6 @@ class App extends PureComponent {
           <Route path= '/Suggestions' render={props => <Suggestions/>}/>
           <Route path= '/About' render={props => <About/>}/>
         </Router>
-{/* 
-        <Navigation />
-        <Body /> */}
       </div>
     );
 
